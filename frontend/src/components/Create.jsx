@@ -52,8 +52,8 @@ const Create = () => {
   const schema = yup
   .object({
     name: yup.string().required('Name is a required field'),
-    projectmanager: yup.string().required('Project manager is a required field'),
-    employees: yup.array().min(1, 'Pick at least one option'),
+    projectmanager: yup.string(),
+    employees: yup.array(),
     status: yup.string().required('Status is a required field'),
     comments: yup.string(), 
     start_date: yup.date().required('Start date is a required field'), 
