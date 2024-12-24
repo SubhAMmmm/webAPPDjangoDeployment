@@ -20,7 +20,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://web-app-django-deployment-bkbyb3awaehpctb4.westus-01.azurewebsites.net' 
+    'https://gentle-sand-0e04dc01e.4.azurestaticapps.net/' 
 ]
 
 
