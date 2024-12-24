@@ -72,20 +72,20 @@ const Create = () => {
       console.log(data)
       console.log("imp data", data.module_toegang)
       
-      // AxiosInstance.post( `project/`,{
-      //   name: data.name,
-      //   projectmanager: data.projectmanager,
-      //   employees: data.employees,
-      //   status: data.status,
-      //   comments: data.comments, 
-      //   start_date: StartDate, 
-      //   end_date: EndDate,
+      AxiosInstance.post( `project/`,{
+        name: data.name,
+        projectmanager: data.projectmanager,
+        employees: data.employees,
+        status: data.status,
+        comments: data.comments, 
+        start_date: StartDate, 
+        end_date: EndDate,
 
-      // })
+      })
 
-      // .then((res) =>{
-      //   navigate(`/`)
-      // })
+      .then((res) =>{
+        navigate(`/`)
+      })
 
 
     }
